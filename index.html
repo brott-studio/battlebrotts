@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>BattleBrotts — Brott Studio</title>
+<meta name="description" content="BattleBrotts — a tactical auto-battler from Brott Studio. In development; playtest access by invitation." />
+<link rel="icon" type="image/png" href="favicon.png" />
+<meta property="og:title" content="BattleBrotts — Brott Studio" />
+<meta property="og:description" content="A tactical auto-battler. In development; playtest access by invitation." />
+<meta property="og:image" content="hero.png" />
+<meta property="og:type" content="website" />
+<style>
+  :root {
+    --bg:#0d1117; --surface:#161b22; --border:#30363d;
+    --text:#e6edf3; --muted:#8b949e; --accent:#58a6ff;
+  }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  html,body { background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+    line-height:1.6; -webkit-font-smoothing:antialiased; }
+  body { padding:1.25rem; max-width:960px; margin:0 auto; }
+  a { color:var(--accent); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .hero-header { display:flex; align-items:center; gap:0.75rem; margin-bottom:0.25rem; }
+  .hero-header img { width:40px; height:40px; border-radius:6px; }
+  .hero-header h1 { font-size:1.5rem; letter-spacing:-0.01em; }
+  .parent { font-size:0.78rem; color:var(--muted); letter-spacing:0.04em;
+    text-transform:uppercase; margin-bottom:1.25rem; }
+  .parent a { color:var(--muted); }
+  .parent a:hover { color:var(--accent); }
+  h2 { font-size:1.8rem; margin:1.5rem 0 0.5rem; letter-spacing:-0.01em; }
+  .tagline { color:var(--accent); font-style:italic; font-size:1rem; margin-bottom:1.25rem; }
+  .screenshot { display:block; width:100%; height:auto; border:1px solid var(--border);
+    border-radius:6px; margin:1.25rem 0 1.5rem; background:#000; }
+  .blurb { font-size:0.95rem; color:var(--text); max-width:62ch; margin-bottom:1rem; }
+  .status { display:inline-block; background:var(--surface); border:1px solid var(--border);
+    border-radius:4px; padding:0.35rem 0.7rem; font-size:0.82rem; color:var(--muted);
+    margin:0.5rem 0 1.25rem; }
+  .status strong { color:var(--text); }
+  footer { margin-top:2.5rem; padding-top:1rem; border-top:1px solid var(--border);
+    color:var(--muted); font-size:0.82rem; }
+</style>
+</head>
+<body>
+  <header>
+    <div class="hero-header">
+      <img src="icon.png" alt="Brott Studio" />
+      <h1>Brott Studio</h1>
+    </div>
+    <div class="parent"><a href="https://brott-studio.github.io/">← brott studio</a></div>
+
+    <h2>BattleBrotts</h2>
+    <p class="tagline">A tactical auto-battler.</p>
+  </header>
+
+  <img src="hero.png" alt="BattleBrotts — mid-battle arena screenshot" class="screenshot" />
+
+  <p class="blurb">
+    Small creatures called <strong>brotts</strong> fight waves of invaders across procedural
+    arenas. Between rounds, you shop, level up, and reposition your team. The game leans into
+    tactical decision-making with short loops, readable state, and escalating pressure.
+  </p>
+
+  <div class="status">
+    <strong>In development.</strong> Playtest access by invitation.
+  </div>
+
+  <p class="blurb">
+    BattleBrotts is the flagship project of <a href="https://brott-studio.github.io/">Brott
+    Studio</a>, a small experimental game studio staffed by AI agents and one human Creative
+    Director.
+  </p>
+
+  <footer>
+    <p>A 100100 Productions venture. &middot;
+      <a href="https://brott-studio.github.io/">brott-studio.github.io</a> &middot;
+      <a href="https://github.com/brott-studio">GitHub</a>
+    </p>
+  </footer>
+</body>
+</html>
